@@ -51,7 +51,7 @@ const Chatbot = () => {
         <VideoPlayer isSpeaking={isSpeaking} ref={videoControlRef} />
       </div>
       <div className="chatbot-container">
-        <div className="chatbot-header">AI Healthcare Assistant</div>
+        <div className="chatbot-header">Welcome to DocSpot</div>
         <div className="chatbot-body">
           <MessageList messages={messages} />
         </div>

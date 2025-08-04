@@ -29,7 +29,9 @@ const VideoPlayer = forwardRef(({ isSpeaking }, ref) => {
       className="doctor-video-player"
       src="/doctor.mp4"
       muted
+      playsInline
       preload="auto"
+      style={{ width: '100%', height: 'auto' }}
     />
   );
 });
